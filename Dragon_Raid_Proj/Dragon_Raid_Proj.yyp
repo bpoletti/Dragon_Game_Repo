@@ -1,6 +1,11 @@
 {
   "resources": [
+    {"id":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},"order":0,},
     {"id":{"name":"City","path":"rooms/City/City.yy",},"order":2,},
+    {"id":{"name":"obj_cloud","path":"objects/obj_cloud/obj_cloud.yy",},"order":1,},
+    {"id":{"name":"spr_sun","path":"sprites/spr_sun/spr_sun.yy",},"order":2,},
+    {"id":{"name":"obj_sun","path":"objects/obj_sun/obj_sun.yy",},"order":0,},
+    {"id":{"name":"spr_cloud","path":"sprites/spr_cloud/spr_cloud.yy",},"order":1,},
     {"id":{"name":"CityWall","path":"rooms/CityWall/CityWall.yy",},"order":1,},
     {"id":{"name":"Castle","path":"rooms/Castle/Castle.yy",},"order":3,},
     {"id":{"name":"Farmland","path":"rooms/Farmland/Farmland.yy",},"order":0,},
