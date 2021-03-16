@@ -1,11 +1,11 @@
-if (keyboard_check(vk_right)){
+if (keyboard_check(vk_right) and !instance_place(x+mvm_spd, y, obj_barrier)) {
 		x += mvm_spd;
 		image_speed = mvm_spd / 3
 		image_xscale = 1;
 }
 
-if (keyboard_check(vk_left)) {
-	x -= mvm_spd;
+if (keyboard_check(vk_left) and !instance_place(x-mvm_spd, y, obj_barrier)) {
+	x += -mvm_spd;
 	image_speed = mvm_spd / 3
 	image_xscale = -1;
 }
@@ -21,7 +21,7 @@ if(keyboard_check(vk_nokey)) {
 }
 
 // Fix gravity if standing on land
-if (instance_place(x,y, obj_barrier)) {
+if (instance_place(x,y+1, obj_barrier)) {
 	gravity = 0
 } else {
 	gravity = 0.5
