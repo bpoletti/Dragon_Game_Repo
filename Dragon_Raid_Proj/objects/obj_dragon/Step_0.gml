@@ -1,4 +1,4 @@
-if (keyboard_check(vk_right)) {
+if (keyboard_check(vk_right)){
 		x += mvm_spd;
 		image_speed = mvm_spd / 3
 		image_xscale = 1;
@@ -21,7 +21,7 @@ if(keyboard_check(vk_nokey)) {
 }
 
 // Fix gravity if standing on land
-if (instance_place(x,y+1, obj_barrier)) {
+if (instance_place(x,y, obj_barrier)) {
 	gravity = 0
 } else {
 	gravity = 0.5
