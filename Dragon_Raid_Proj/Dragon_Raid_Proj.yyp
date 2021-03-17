@@ -5,6 +5,8 @@
     {"id":{"name":"CityWall","path":"rooms/CityWall/CityWall.yy",},"order":1,},
     {"id":{"name":"spr_townGuard","path":"sprites/spr_townGuard/spr_townGuard.yy",},"order":2,},
     {"id":{"name":"spr_OrcJab","path":"sprites/spr_OrcJab/spr_OrcJab.yy",},"order":7,},
+    {"id":{"name":"obj_flame_close","path":"objects/obj_flame_close/obj_flame_close.yy",},"order":5,},
+    {"id":{"name":"spr_flame_close","path":"sprites/spr_flame_close/spr_flame_close.yy",},"order":11,},
     {"id":{"name":"obj_dragon","path":"objects/obj_dragon/obj_dragon.yy",},"order":3,},
     {"id":{"name":"obj_villageGuard","path":"objects/obj_villageGuard/obj_villageGuard.yy",},"order":2,},
     {"id":{"name":"spr_background4","path":"sprites/spr_background4/spr_background4.yy",},"order":10,},

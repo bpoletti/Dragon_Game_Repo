@@ -30,3 +30,8 @@ if (instance_place(x,y+1, obj_barrier)) {
 if (vspeed > 12) {
 	vspeed = 12 
 }
+
+//if F key is pressed, flame thrower is used
+if(keyboard_check_pressed(ord("F"))) {
+		instance_create_layer(x, y, "Instances", obj_flame_close)
+	}
