@@ -47,3 +47,11 @@ if(keyboard_check(ord("B"))) {
 	}	
 	fireball_cooldown -= 1
 }
+//if E key is held, fireball of lingering is thrown
+if(keyboard_check(ord("E"))) {
+	if(lingerball_cooldown <= 0) {
+	instance_create_layer(x, y, "Instances", obj_flame_lingering)
+	lingerball_cooldown = 120
+	}	
+	lingerball_cooldown -= 1
+}
