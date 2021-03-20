@@ -1,13 +1,17 @@
-if (keyboard_check(vk_right) and !instance_place(x+mvm_spd, y, obj_barrier)) {
-		x += mvm_spd;
-		image_speed = mvm_spd / 3
-		image_xscale = 1;
+if (keyboard_check(vk_right) and !instance_place(x+mvm_spd, y-1, obj_barrier)) {
+	x += mvm_spd;
+	image_xscale = 1;
+	instance_destroy(obj_flame_close)
+	is_right = true
+	image_index += 0.1
 }
 
-if (keyboard_check(vk_left) and !instance_place(x-mvm_spd, y, obj_barrier)) {
+if (keyboard_check(vk_left) and !instance_place(x-mvm_spd, y-1, obj_barrier)) {
 	x += -mvm_spd;
-	image_speed = mvm_spd / 3
 	image_xscale = -1;
+	instance_destroy(obj_flame_close)
+	is_right = false
+	image_index += 0.1
 }
 if (keyboard_check(vk_up)) {
 	if (instance_place(x, y+1, obj_barrier)) {
@@ -33,5 +37,13 @@ if (vspeed > 12) {
 
 //if F key is pressed, flame thrower is used
 if(keyboard_check_pressed(ord("F"))) {
-		instance_create_layer(x, y, "Instances", obj_flame_close)
+	instance_create_layer(x, y, "Instances", obj_flame_close)
 	}
+//if B key is held, fireball is thrown
+if(keyboard_check(ord("B"))) {
+	if(fireball_cooldown <= 0) {
+	instance_create_layer(x, y, "Instances", obj_fireball)
+	fireball_cooldown = 40
+	}	
+	fireball_cooldown -= 1
+}
