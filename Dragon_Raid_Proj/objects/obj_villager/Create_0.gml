@@ -1,1 +1,2 @@
-hspeed = hspd;
+hspeed = -hspd;
+image_xscale *= -1;
