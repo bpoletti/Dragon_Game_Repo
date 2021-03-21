@@ -20,6 +20,7 @@
     {"id":{"name":"obj_orc","path":"objects/obj_orc/obj_orc.yy",},"order":1,},
     {"id":{"name":"obj_gatekeeper","path":"objects/obj_gatekeeper/obj_gatekeeper.yy",},"order":6,},
     {"id":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},"order":4,},
+    {"id":{"name":"obj_sheep","path":"objects/obj_sheep/obj_sheep.yy",},"order":18,},
     {"id":{"name":"spr_flame_lingering","path":"sprites/spr_flame_lingering/spr_flame_lingering.yy",},"order":13,},
     {"id":{"name":"obj_archer","path":"objects/obj_archer/obj_archer.yy",},"order":10,},
     {"id":{"name":"obj_knight","path":"objects/obj_knight/obj_knight.yy",},"order":11,},

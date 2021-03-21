@@ -1,3 +1,4 @@
+drgn_health = 100
 if (keyboard_check(vk_right) and !instance_place(x+mvm_spd, y-1, obj_barrier)) {
 	x += mvm_spd;
 	image_xscale = 1;
