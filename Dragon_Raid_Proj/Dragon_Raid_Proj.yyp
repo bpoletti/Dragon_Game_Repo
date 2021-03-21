@@ -31,6 +31,7 @@
     {"id":{"name":"obj_royalProtector","path":"objects/obj_royalProtector/obj_royalProtector.yy",},"order":8,},
     {"id":{"name":"spr_background2","path":"sprites/spr_background2/spr_background2.yy",},"order":9,},
     {"id":{"name":"Castle","path":"rooms/Castle/Castle.yy",},"order":3,},
+    {"id":{"name":"obj_scoreboard","path":"objects/obj_scoreboard/obj_scoreboard.yy",},"order":19,},
     {"id":{"name":"obj_fireball","path":"objects/obj_fireball/obj_fireball.yy",},"order":15,},
     {"id":{"name":"spr_barrier","path":"sprites/spr_barrier/spr_barrier.yy",},"order":5,},
     {"id":{"name":"spr_background3","path":"sprites/spr_background3/spr_background3.yy",},"order":8,},

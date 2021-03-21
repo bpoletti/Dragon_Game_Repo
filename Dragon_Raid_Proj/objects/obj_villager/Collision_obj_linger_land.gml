@@ -1,4 +1,4 @@
-//alarm[2] = other.linger_dsp
-//if (hp <= 0) {
-//	instance_destroy()
-//};
+hp -= other.fire_dmg
+if (hp <= 0) {
+	instance_destroy()
+};
