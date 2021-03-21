@@ -1,0 +1,1 @@
+health -= other.dmg;
