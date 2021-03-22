@@ -1,5 +1,5 @@
 
-if (keyboard_check(vk_right) and !instance_place(x+mvm_spd, y-1, obj_barrier)) {
+if (keyboard_check(vk_right) and !instance_place(x+mvm_spd, y, obj_barrier)) {
 	x += mvm_spd;
 	image_xscale = 1;
 	instance_destroy(obj_flame_close)
@@ -7,7 +7,7 @@ if (keyboard_check(vk_right) and !instance_place(x+mvm_spd, y-1, obj_barrier)) {
 	image_index += 0.1
 }
 
-if (keyboard_check(vk_left) and !instance_place(x-mvm_spd, y-1, obj_barrier)) {
+if (keyboard_check(vk_left) and !instance_place(x-mvm_spd, y, obj_barrier)) {
 	x += -mvm_spd;
 	image_xscale = -1;
 	instance_destroy(obj_flame_close)

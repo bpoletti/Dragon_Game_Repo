@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_orcStand",
-    "path": "sprites/spr_orcStand/spr_orcStand.yy",
+    "name": "spr_orcMoving",
+    "path": "sprites/spr_orcMoving/spr_orcMoving.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,6 +25,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_orc","path":"objects/obj_orc/obj_orc.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},"parent":{"name":"obj_orc","path":"objects/obj_orc/obj_orc.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
