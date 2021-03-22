@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_adventurer",
+    "path": "sprites/spr_adventurer/spr_adventurer.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_Guard",
+    "path": "sprites/spr_Guard/spr_Guard.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

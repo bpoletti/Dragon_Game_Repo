@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_archer",
+    "path": "sprites/spr_archer/spr_archer.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

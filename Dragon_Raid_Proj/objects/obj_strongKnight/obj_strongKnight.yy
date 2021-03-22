@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_strongKnight",
+    "path": "sprites/spr_strongKnight/spr_strongKnight.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
