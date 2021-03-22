@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_townGuard",
+    "path": "sprites/spr_townGuard/spr_townGuard.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
