@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_villager",
+    "path": "sprites/spr_villager/spr_villager.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
