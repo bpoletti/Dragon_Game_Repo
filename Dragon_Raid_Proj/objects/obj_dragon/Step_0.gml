@@ -52,7 +52,7 @@ if(keyboard_check(ord("B"))) {
 if(keyboard_check(ord("E"))) {
 	if(lingerball_cooldown <= 0) {
 	instance_create_layer(x, y, "Instances", obj_flame_lingering)
-	lingerball_cooldown = 110
+	lingerball_cooldown = 40
 	}	
 	lingerball_cooldown -= 1
 }
