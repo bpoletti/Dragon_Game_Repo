@@ -30,7 +30,9 @@
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_flame_lingering","path":"objects/obj_flame_lingering/obj_flame_lingering.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"proj_spd","path":"objects/obj_fireball/obj_fireball.yy",},"objectId":{"name":"obj_fireball","path":"objects/obj_fireball/obj_fireball.yy",},"value":"4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
