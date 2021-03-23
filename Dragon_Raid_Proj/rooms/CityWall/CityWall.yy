@@ -3,7 +3,7 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":733,"vborder":250,"hspeed":-1,"vspeed":-1,"objectId":{"name":"obj_dragon","path":"objects/obj_dragon/obj_dragon.yy",},},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -95,7 +95,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_585F6038","path":"rooms/CityWall/CityWall.yy",},
-    {"name":"inst_44B115C7","path":"rooms/CityWall/CityWall.yy",},
     {"name":"inst_63B0E5EB","path":"rooms/CityWall/CityWall.yy",},
     {"name":"inst_405FB6AE","path":"rooms/CityWall/CityWall.yy",},
     {"name":"inst_209130D","path":"rooms/CityWall/CityWall.yy",},
@@ -117,6 +116,7 @@
     {"name":"inst_283A8274","path":"rooms/CityWall/CityWall.yy",},
     {"name":"inst_15A705ED","path":"rooms/CityWall/CityWall.yy",},
     {"name":"inst_7175E07F","path":"rooms/CityWall/CityWall.yy",},
+    {"name":"inst_44B115C7","path":"rooms/CityWall/CityWall.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -128,7 +128,7 @@
   },
   "viewSettings": {
     "inheritViewSettings": false,
-    "enableViews": false,
+    "enableViews": true,
     "clearViewBackground": false,
     "clearDisplayBuffer": true,
   },

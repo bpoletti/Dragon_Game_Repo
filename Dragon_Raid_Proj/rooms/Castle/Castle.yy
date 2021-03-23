@@ -3,7 +3,7 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":733,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":{"name":"obj_dragon","path":"objects/obj_dragon/obj_dragon.yy",},},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -75,8 +75,8 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_12E10E91","path":"rooms/Castle/Castle.yy",},
-    {"name":"inst_51826A92","path":"rooms/Castle/Castle.yy",},
     {"name":"inst_7D7EA7E9","path":"rooms/Castle/Castle.yy",},
+    {"name":"inst_51826A92","path":"rooms/Castle/Castle.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -88,7 +88,7 @@
   },
   "viewSettings": {
     "inheritViewSettings": false,
-    "enableViews": false,
+    "enableViews": true,
     "clearViewBackground": false,
     "clearDisplayBuffer": true,
   },
