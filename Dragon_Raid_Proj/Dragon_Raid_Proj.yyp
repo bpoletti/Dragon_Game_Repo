@@ -42,6 +42,7 @@
     {"id":{"name":"spr_archer","path":"sprites/spr_archer/spr_archer.yy",},"order":22,},
     {"id":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"order":0,},
     {"id":{"name":"spr_portal","path":"sprites/spr_portal/spr_portal.yy",},"order":14,},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":23,},
     {"id":{"name":"spr_villager","path":"sprites/spr_villager/spr_villager.yy",},"order":3,},
     {"id":{"name":"spr_tilset_farmland","path":"sprites/spr_tilset_farmland/spr_tilset_farmland.yy",},"order":15,},
     {"id":{"name":"obj_royalProtector","path":"objects/obj_royalProtector/obj_royalProtector.yy",},"order":8,},
