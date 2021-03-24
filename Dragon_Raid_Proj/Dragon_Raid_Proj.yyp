@@ -35,6 +35,8 @@
     {"id":{"name":"spr_flame_lingering","path":"sprites/spr_flame_lingering/spr_flame_lingering.yy",},"order":13,},
     {"id":{"name":"obj_archer","path":"objects/obj_archer/obj_archer.yy",},"order":10,},
     {"id":{"name":"spr_sheep","path":"sprites/spr_sheep/spr_sheep.yy",},"order":18,},
+    {"id":{"name":"spr_gatekeeper_block","path":"sprites/spr_gatekeeper_block/spr_gatekeeper_block.yy",},"order":27,},
+    {"id":{"name":"spr_gatekeeper_stand","path":"sprites/spr_gatekeeper_stand/spr_gatekeeper_stand.yy",},"order":26,},
     {"id":{"name":"spr_marker","path":"sprites/spr_marker/spr_marker.yy",},"order":17,},
     {"id":{"name":"spr_adventurer","path":"sprites/spr_adventurer/spr_adventurer.yy",},"order":23,},
     {"id":{"name":"obj_knight","path":"objects/obj_knight/obj_knight.yy",},"order":11,},
