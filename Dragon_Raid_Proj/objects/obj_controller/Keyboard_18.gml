@@ -14,9 +14,11 @@ if(keyboard_check_pressed(ord("N"))) {
 if(keyboard_check_pressed(ord("H"))) {
 	if instance_exists(obj_dragon) obj_dragon.drgn_health -= 10
 }
+//Y sets health to uber max
+if(keyboard_check_pressed(ord("Y"))) {
+	if instance_exists(obj_dragon) obj_dragon.drgn_health = 1000
+}
 //K kills all enemies in room
 if(keyboard_check_pressed(ord("K"))) {
 	if instance_exists(obj_villager) instance_destroy(obj_villager)
-	if instance_exists(obj_villageGuard) instance_destroy(obj_villageGuard)
-	if instance_exists(obj_orc) instance_destroy(obj_orc)
 }
