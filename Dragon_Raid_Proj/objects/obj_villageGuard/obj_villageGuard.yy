@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_townGuard",
+    "path": "sprites/spr_townGuard/spr_townGuard.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -22,7 +25,12 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"hspd","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":"1.15","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"dmg","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":"8","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hp","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":"15","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemyScore","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":"15","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

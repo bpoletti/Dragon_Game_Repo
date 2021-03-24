@@ -1,5 +1,4 @@
-
-if (keyboard_check(vk_right) and !instance_place(x+mvm_spd, y-1, obj_barrier)) {
+if (keyboard_check(vk_right) and !instance_place(x+mvm_spd, y, obj_barrier)) {
 	x += mvm_spd;
 	image_xscale = 1;
 	instance_destroy(obj_flame_close)
@@ -7,7 +6,7 @@ if (keyboard_check(vk_right) and !instance_place(x+mvm_spd, y-1, obj_barrier)) {
 	image_index += 0.1
 }
 
-if (keyboard_check(vk_left) and !instance_place(x-mvm_spd, y-1, obj_barrier)) {
+if (keyboard_check(vk_left) and !instance_place(x-mvm_spd, y, obj_barrier)) {
 	x += -mvm_spd;
 	image_xscale = -1;
 	instance_destroy(obj_flame_close)
@@ -44,7 +43,7 @@ if(keyboard_check_pressed(ord("F"))) {
 if(keyboard_check(ord("B"))) {
 	if(fireball_cooldown <= 0) {
 	instance_create_layer(x, y, "Instances", obj_fireball)
-	fireball_cooldown = 50
+	fireball_cooldown = 40
 	}	
 	fireball_cooldown -= 1
 }
@@ -52,7 +51,7 @@ if(keyboard_check(ord("B"))) {
 if(keyboard_check(ord("E"))) {
 	if(lingerball_cooldown <= 0) {
 	instance_create_layer(x, y, "Instances", obj_flame_lingering)
-	lingerball_cooldown = 40
+	lingerball_cooldown = 100
 	}	
 	lingerball_cooldown -= 1
 }

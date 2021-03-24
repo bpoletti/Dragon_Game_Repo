@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_gatekeeper_stand",
+    "path": "sprites/spr_gatekeeper_stand/spr_gatekeeper_stand.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,9 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_gatekeeper","path":"objects/obj_gatekeeper/obj_gatekeeper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"obj_gatekeeper","path":"objects/obj_gatekeeper/obj_gatekeeper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"hp","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":"60","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"dmg","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

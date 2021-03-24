@@ -1,0 +1,2 @@
+
+isHit = false

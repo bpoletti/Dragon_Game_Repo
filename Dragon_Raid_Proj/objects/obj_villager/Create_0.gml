@@ -1,2 +1,3 @@
 hspeed = -hspd;
-image_xscale = 1;
+isHit = false;
+image_xscale = -1;

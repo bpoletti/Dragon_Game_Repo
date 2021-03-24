@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_wizard_stand",
+    "path": "sprites/spr_wizard_stand/spr_wizard_stand.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -22,7 +25,11 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"dmg","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hp","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hspd","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

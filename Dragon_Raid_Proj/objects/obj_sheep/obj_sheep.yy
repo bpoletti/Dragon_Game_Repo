@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_sheep",
+    "path": "sprites/spr_sheep/spr_sheep.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
