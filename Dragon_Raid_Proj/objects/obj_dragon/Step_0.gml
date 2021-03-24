@@ -44,7 +44,7 @@ if(keyboard_check_pressed(ord("F"))) {
 if(keyboard_check(ord("B"))) {
 	if(fireball_cooldown <= 0) {
 	instance_create_layer(x, y, "Instances", obj_fireball)
-	fireball_cooldown = 40
+	fireball_cooldown = 50
 	}	
 	fireball_cooldown -= 1
 }
