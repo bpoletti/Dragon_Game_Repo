@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_royal_prot_stand",
+    "path": "sprites/spr_royal_prot_stand/spr_royal_prot_stand.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

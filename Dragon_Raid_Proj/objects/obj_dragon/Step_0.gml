@@ -1,4 +1,4 @@
-if (keyboard_check(vk_right) and !instance_place(x+mvm_spd, y, obj_barrier)) {
+sprif (keyboard_check(vk_right) and !instance_place(x+mvm_spd, y, obj_barrier)) {
 	x += mvm_spd;
 	image_xscale = 1;
 	instance_destroy(obj_flame_close)
