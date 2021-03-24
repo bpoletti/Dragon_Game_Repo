@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_orcStand","path":"sprites/spr_orcStand/spr_orcStand.yy",},"order":6,},
+    {"id":{"name":"spr_wizard_stand","path":"sprites/spr_wizard_stand/spr_wizard_stand.yy",},"order":28,},
     {"id":{"name":"obj_strongKnight","path":"objects/obj_strongKnight/obj_strongKnight.yy",},"order":13,},
     {"id":{"name":"obj_wizard","path":"objects/obj_wizard/obj_wizard.yy",},"order":7,},
     {"id":{"name":"City","path":"rooms/City/City.yy",},"order":2,},
@@ -45,6 +46,7 @@
     {"id":{"name":"obj_flame_lingering","path":"objects/obj_flame_lingering/obj_flame_lingering.yy",},"order":16,},
     {"id":{"name":"spr_archer","path":"sprites/spr_archer/spr_archer.yy",},"order":22,},
     {"id":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"order":0,},
+    {"id":{"name":"spr_wizard_attack","path":"sprites/spr_wizard_attack/spr_wizard_attack.yy",},"order":29,},
     {"id":{"name":"spr_portal","path":"sprites/spr_portal/spr_portal.yy",},"order":14,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":23,},
     {"id":{"name":"spr_villager","path":"sprites/spr_villager/spr_villager.yy",},"order":3,},
