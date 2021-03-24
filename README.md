@@ -6,15 +6,24 @@ You are the mighty dragon, Uldritch. You have learned that a mighty hoard of tre
 
 ## Controls
 Left Arrow Key - Move to the left
+
 Right Arrow Key - Move to the right
+
 Up Arrow Key - Jump up
+
 F - Fire Breath
+
 B - Fireball
+
 E - Hold to shoot fireball that turns into lingering flames on ground
 
 ## Cheat Codes
 Alt R - Restart the level
+
 Alt G - Restart the game
+
 Alt N - Go to the next level
+
 Alt H - Reduce your health by 10
+
 Alt K - Kill all enemies in the room
