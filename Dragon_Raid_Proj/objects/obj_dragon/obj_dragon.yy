@@ -43,6 +43,8 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_archer","path":"objects/obj_archer/obj_archer.yy",},"parent":{"name":"obj_dragon","path":"objects/obj_dragon/obj_dragon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_villageGuard","path":"objects/obj_villageGuard/obj_villageGuard.yy",},"parent":{"name":"obj_dragon","path":"objects/obj_dragon/obj_dragon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_orc","path":"objects/obj_orc/obj_orc.yy",},"parent":{"name":"obj_dragon","path":"objects/obj_dragon/obj_dragon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_strongKnight","path":"objects/obj_strongKnight/obj_strongKnight.yy",},"parent":{"name":"obj_dragon","path":"objects/obj_dragon/obj_dragon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_adventurer","path":"objects/obj_adventurer/obj_adventurer.yy",},"parent":{"name":"obj_dragon","path":"objects/obj_dragon/obj_dragon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"drgn_health","tags":[],"resourceType":"GMObjectProperty",},

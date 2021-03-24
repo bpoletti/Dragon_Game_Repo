@@ -26,7 +26,10 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"enemyScore","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemyScore","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":"25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hspd","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":".9","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"dmg","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":"14","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hp","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":"24","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",
