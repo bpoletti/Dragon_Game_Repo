@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_wizard_stand",
+    "path": "sprites/spr_wizard_stand/spr_wizard_stand.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
