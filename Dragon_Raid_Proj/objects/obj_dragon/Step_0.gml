@@ -1,6 +1,3 @@
-if(drgn_health <= 0){
-	game_restart()
-}
 if (keyboard_check(vk_right) and !instance_place(x+mvm_spd, y, obj_barrier)) {
 	x += mvm_spd;
 	image_xscale = 1;
