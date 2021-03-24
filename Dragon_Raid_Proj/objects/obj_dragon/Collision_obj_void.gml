@@ -1,2 +1,2 @@
 //Needs edit
-game_restart();
+instance_destroy(obj_dragon);
