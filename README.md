@@ -17,6 +17,12 @@ B - Fireball
 
 E - Hold to shoot fireball that turns into lingering flames on ground
 
+Esc - Exit the Game
+
+Coins increaes your score
+
+Gems increase your damage for a short amount of time
+
 ## Cheat Codes
 Alt R - Restart the level
 
@@ -27,3 +33,5 @@ Alt N - Go to the next level
 Alt H - Reduce your health by 10
 
 Alt K - Kill all enemies in the room
+
+Alt Y - Increase health by 1000
