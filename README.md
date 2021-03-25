@@ -17,6 +17,8 @@ B - Fireball
 
 E - Hold to shoot fireball that turns into lingering flames on ground
 
+Esc - Exit the Game
+
 Coins increaes your score
 
 Gems increase your damage for a short amount of time
