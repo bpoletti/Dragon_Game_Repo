@@ -3,9 +3,12 @@ if (image_xscale > 0) {
 } else {
 	is_right = false;
 }
-if (aggro_range > distance_to_object(obj_dragon) && magic_ready) {
+if (aggro_range > distance_to_object(obj_dragon) && magic_ready && num_lighting <= 3) {
 	instance_create_layer(x, y, "Instances", obj_lightning);
 	magic_ready = false;
+	image_index = 1
+	image_index = 2
+	num_lighting++
 	alarm[2] = 100;
 }
 

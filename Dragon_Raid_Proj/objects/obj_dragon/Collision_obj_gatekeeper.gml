@@ -2,7 +2,7 @@ if (invulnerable == false) {
 	drgn_health -= other.dmg;
 	invulnerable = true;
 	isHit = true
-	alarm[0] = 7*other.image_speed
+	alarm[0] = 5*60
 	alarm[1] = 10
 }
 audio_play_sound(snd_dragonGrowl,1,0)
