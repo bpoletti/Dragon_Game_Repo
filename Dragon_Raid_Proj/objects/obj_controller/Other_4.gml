@@ -1,4 +1,4 @@
-if (room_get_name(room_Index) == "Castle") {
+if (room == Castle) {
 	audio_play_sound(music_boss,3,1)
 }
 else {
