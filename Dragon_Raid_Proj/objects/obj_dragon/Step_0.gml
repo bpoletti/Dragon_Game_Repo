@@ -6,6 +6,11 @@ if (keyboard_check(vk_right) and !instance_place(x+mvm_spd, y, obj_barrier)) {
 	image_index += 0.1
 }
 
+// Enter to start game, go to farmland
+if (keyboard_check(vk_enter) and room == StartState) {
+	room_goto_next()
+}
+
 if (keyboard_check(vk_left) and !instance_place(x-mvm_spd, y, obj_barrier)) {
 	x += -mvm_spd;
 	image_xscale = -1;

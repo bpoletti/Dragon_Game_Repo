@@ -33,6 +33,7 @@
     {"id":{"name":"spr_void","path":"sprites/spr_void/spr_void.yy",},"order":16,},
     {"id":{"name":"obj_king","path":"objects/obj_king/obj_king.yy",},"order":9,},
     {"id":{"name":"spr_tileset_city","path":"sprites/spr_tileset_city/spr_tileset_city.yy",},"order":25,},
+    {"id":{"name":"spr_backgound_startstate","path":"sprites/spr_backgound_startstate/spr_backgound_startstate.yy",},"order":38,},
     {"id":{"name":"obj_portal","path":"objects/obj_portal/obj_portal.yy",},"order":20,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":4,},
     {"id":{"name":"obj_orc","path":"objects/obj_orc/obj_orc.yy",},"order":1,},
@@ -40,6 +41,7 @@
     {"id":{"name":"spr_RoyalProtector","path":"sprites/spr_RoyalProtector/spr_RoyalProtector.yy",},"order":35,},
     {"id":{"name":"obj_gatekeeper","path":"objects/obj_gatekeeper/obj_gatekeeper.yy",},"order":6,},
     {"id":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},"order":4,},
+    {"id":{"name":"StartState","path":"rooms/StartState/StartState.yy",},"order":6,},
     {"id":{"name":"obj_sheep","path":"objects/obj_sheep/obj_sheep.yy",},"order":18,},
     {"id":{"name":"spr_strongKnight","path":"sprites/spr_strongKnight/spr_strongKnight.yy",},"order":21,},
     {"id":{"name":"snd_heal","path":"sounds/snd_heal/snd_heal.yy",},"order":7,},
@@ -97,6 +99,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"StartState","path":"rooms/StartState/StartState.yy",},},
     {"roomId":{"name":"Farmland","path":"rooms/Farmland/Farmland.yy",},},
     {"roomId":{"name":"CityWall","path":"rooms/CityWall/CityWall.yy",},},
     {"roomId":{"name":"City","path":"rooms/City/City.yy",},},
