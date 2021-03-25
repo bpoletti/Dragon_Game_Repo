@@ -119,7 +119,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":20.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2272.0,"y":0.0,"resourceVersion":"1.0","name":"inst_3F78AAB5","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_dragon","path":"objects/obj_dragon/obj_dragon.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":544.0,"resourceVersion":"1.0","name":"inst_3D37A235","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":576.0,"resourceVersion":"1.0","name":"inst_3437DB85","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":32.0,"resourceVersion":"1.0","name":"inst_6F700E34","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"hp","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"dmg","path":"objects/obj_villager/obj_villager.yy",},"objectId":{"name":"obj_villager","path":"objects/obj_villager/obj_villager.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -177,7 +176,6 @@
     {"name":"inst_3F78AAB5","path":"rooms/City/City.yy",},
     {"name":"inst_3437DB85","path":"rooms/City/City.yy",},
     {"name":"inst_3D37A235","path":"rooms/City/City.yy",},
-    {"name":"inst_6F700E34","path":"rooms/City/City.yy",},
     {"name":"inst_5C43074B","path":"rooms/City/City.yy",},
     {"name":"inst_1EF3AD42","path":"rooms/City/City.yy",},
     {"name":"inst_51AA8916","path":"rooms/City/City.yy",},
