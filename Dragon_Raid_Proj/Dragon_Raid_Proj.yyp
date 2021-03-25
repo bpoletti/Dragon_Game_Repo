@@ -56,6 +56,7 @@
     {"id":{"name":"music_battle","path":"sounds/music_battle/music_battle.yy",},"order":3,},
     {"id":{"name":"spr_gatekeeper_block","path":"sprites/spr_gatekeeper_block/spr_gatekeeper_block.yy",},"order":28,},
     {"id":{"name":"spr_gatekeeper_stand","path":"sprites/spr_gatekeeper_stand/spr_gatekeeper_stand.yy",},"order":26,},
+    {"id":{"name":"snd_portal","path":"sounds/snd_portal/snd_portal.yy",},"order":9,},
     {"id":{"name":"spr_marker","path":"sprites/spr_marker/spr_marker.yy",},"order":17,},
     {"id":{"name":"spr_adventurer","path":"sprites/spr_adventurer/spr_adventurer.yy",},"order":23,},
     {"id":{"name":"snd_coin","path":"sounds/snd_coin/snd_coin.yy",},"order":6,},
