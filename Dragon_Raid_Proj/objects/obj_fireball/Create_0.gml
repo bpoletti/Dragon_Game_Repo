@@ -1,9 +1,8 @@
 if(instance_exists(obj_dragon)) {
 	image_xscale = 0.75
 	image_yscale = 0.75
-	if (!audio_is_playing(snd_fireball)) {
-		audio_play_sound(snd_fireball,5,0)
-	}
+	audio_stop_sound(snd_fireball)
+	audio_play_sound(snd_fireball,5,0)
 	if(obj_dragon.is_right) {
 	hspeed = proj_spd
 	image_xscale = image_xscale

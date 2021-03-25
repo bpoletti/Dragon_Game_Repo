@@ -1,7 +1,6 @@
 if(instance_exists(obj_dragon)) {
-	if (!audio_is_playing(snd_fireball)) {
+	audio_stop_sound(snd_fireball)
 	audio_play_sound(snd_fireball,5,0)
-}
 	image_xscale = 0.5
 	image_yscale = 0.5
 	if(obj_dragon.is_right) {
