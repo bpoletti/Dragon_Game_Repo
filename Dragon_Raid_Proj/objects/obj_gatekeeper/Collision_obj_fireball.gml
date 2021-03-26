@@ -1,8 +1,9 @@
 if (irandom(10)%2 == 0) {
 	hp -= other.fire_dmg/2;
 	isHit = true
-	alarm[1] = 5
+	alarm[1] = 10
 	image_index = 1
+	alarm[2] = 90
 	audio_play_sound(snd_enemyDamage,1,0)
 	instance_destroy(other)
 	if (hp <= 0) {
@@ -12,8 +13,7 @@ if (irandom(10)%2 == 0) {
 else {
 	hp -= other.fire_dmg
 	isHit = true
-	alarm[1] = 5
-	image_index = 0
+	alarm[1] = 10
 	audio_play_sound(snd_enemyDamage,1,0)
 	instance_destroy(other)
 	if (hp <= 0) {

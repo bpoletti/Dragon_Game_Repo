@@ -4,7 +4,7 @@ if (invulnerable == false) {
 	isHit = true
 	alarm[0] = 5*60
 	alarm[1] = 10
-	other.doDamage = false;
+	other.image_index = 1
 	other.alarm[2] = 5*60
 }
 if (!audio_is_playing(snd_dragonGrowl)) {
